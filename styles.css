@@ -1,2 +1,31 @@
-
-/* Your CSS Code here. */
+.holder{
+	display:grid;
+	gap:10px;
+	width:200px;
+	grid-template-columns:repeat(2,1fr);
+	grid-template-rows:repeat(2,1fr);
+}
+.item-1{
+	background-color:green;
+	width:100px;
+	height:100px;
+	font-size:60px;
+}
+.item-2{
+	background-color:red;
+	width:100px;
+	height:100px;
+	font-size:60px;
+}
+.item-3{
+	background-color:blue;
+	width:100px;
+	height:100px;
+	font-size:60px;
+}
+.item-4{
+	background-color:pink;
+	width:100px;
+	height:100px;
+	font-size:60px;
+}
